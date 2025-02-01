@@ -1,0 +1,164 @@
+(footprint "Heatsink_15x14x13_15x9"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ae2fc4ae-0a7f-4b67-98b9-493f0d3ca5f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_15x14x13_15x9"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fa48285-d184-41e8-a0fc-9283de0a9b0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eab2b633-4804-4fd4-b20a-11b3b05be481")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a9c4e3c-cd29-4266-b734-81d103f2e931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6d49356-fe6e-4e45-9e08-1541319b8eab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.5 -7)
+		(end -7.5 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a695b231-68de-441c-b304-2f56c4fedc48")
+	)
+	(fp_line
+		(start -7.5 -4.5)
+		(end 7.5 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7feed677-9c19-4b9c-8c9d-c50259b4630b")
+	)
+	(fp_line
+		(start -7.5 4.5)
+		(end 7.5 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "73c0c3a8-a072-4c38-9cbd-58c4aa8c6b9e")
+	)
+	(fp_line
+		(start -7.5 7)
+		(end 7.5 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c229bded-71fa-4666-93f6-666d9c19bc8e")
+	)
+	(fp_line
+		(start 7.5 -7)
+		(end -7.5 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7e2d64d7-cbc0-4afb-9371-89a2bd54ae74")
+	)
+	(fp_line
+		(start 7.5 0)
+		(end 7.5 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6d30bb42-c4d9-4b40-a20d-bffaafc9976f")
+	)
+	(fp_line
+		(start 7.5 7)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9a29224b-36c6-42c7-994a-aad76afba6e2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e38d55d-0030-4476-be21-bd0cabebde86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD8_USER_3DMODEL_DIR}/Heatsink_add.3dshape/Heatsink_15x14x13_15x9.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
